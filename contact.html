@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="contact-nav">
+    <img src=".//img/schaar.png" alt="schaar logo">
+
+    <div class="empty"></div>
+
+    <div class="nav-link">
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="index.html" target="_blank">home</a>
+    </div>
+  </nav>
+
+  <header class="contact-header">
+    <h1>contact</h1>
+    <p>vull uw contact gegevens in de onderstaande formulier als u een vraag/reservering wilt plaatsen, of lid wilt
+      worden van onze site. </p>
+  </header>
+
+  <main>
+
+    <form>
+      <section>
+        <div class="center-container">
+
+          <h2>formulier</h2>
+
+          <div class="username">
+            <div class="name">
+              <label for="name">Voornaam</label>
+              <input type="text" name="name" id="name" placeholder="voer voornaam in..." required>
+            </div>
+
+            <div class="name">
+              <label for="surname">Achternaam</label>
+              <input type="text" name="surname" id="surname" placeholder="voer achternaam in..." required>
+            </div>
+          </div>
+
+          <div class="email">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="voer e-mailadress in..." required>
+          </div>
+
+          <div class="data">
+            <div class="city">
+              <label for="city">Woonplaats</label>
+              <input type="text" name="city" id="city" placeholder="voer woonplaats in..." required>
+            </div>
+
+
+            <div class="date">
+              <label for="birthdate">Geboortedatum</label>
+              <input type="date" name="birthdate" id="birthdate" required>
+            </div>
+          </div>
+
+
+          <div class="subject">
+            <label for="send-to">Onderwerp</label>
+            <select id="send-to" name="send-to" required>
+              <option value="" disabled selected>Kies onderwerp van het bericht...</option>
+              <option value="0">reserveren</option>
+              <option value="1">vraag stellen</option>
+            </select>
+          </div>
+
+
+          <div class="message">
+            <label for="message">bericht</label>
+            <input type="text" name="message" id="message" required>
+          </div>
+
+
+          <div class="category">
+            <label for="category">inschrijven voor nieuwsbrief?</label>
+            <div class="answer">
+              <input type="radio" id="yes" name="category" required>
+              <label for="yes">ja</label>
+
+              <input type="radio" id="no" name="category" required>
+              <label for="no">nee</label>
+            </div>
+          </div>
+
+          <div class="condition">
+            <label for="voorwaarden">Ik ga akkoord met de algemene voorwaarden</label>
+            <input type="checkbox" id="voorwaarden" name="agree" required>
+          </div>
+
+          <button type="submit">verzenden</button>
+        </div>
+      </section>
+    </form>
+
+  </main>
+
+
+  <footer class="contact-footer">
+    <div class="all-logos">
+      <img src="img/schaar.png" alt="logo" id="scissor">
+      <p>copyright 2024 kapperszaak</p>
+      <div class="logo">
+        <img src="img/Instagram-Logo-PNG-Photo.png" alt="instagram logo">
+        <img src="img/Black-Facebook-Logo-Transparent-Background.png" alt="facebook logo">
+        <img src="img/image_processing20210616-28547-1lzq13z.png" alt="snapchat logo">
+      </div>
+    </div>
+    <div class="empty"></div>
+    <a href="#">Privacyverklaring</a>
+    <a href="#">Algemene voorwaarden</a>
+    <a href="#">Cookiebeleid</a>
+    <a href="contact.html">Contact</a>
+  </footer>
+</body>
+
+</html>
